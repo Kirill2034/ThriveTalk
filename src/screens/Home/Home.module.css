@@ -21,9 +21,9 @@
 .Navbar {
     display: flex;
     justify-content: space-between;
-    width: 233px;
+    width: 227px;
     font-family: 'Montserrat', sans-serif;
-    font-size: 14px;
+    font-size: 20px;
     color: #22356F;
 }
 
@@ -113,4 +113,9 @@
     z-index: 0;
     top: 0;
     right: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #22356F;
 }

@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './Home.module.css';
+import {NavLink} from 'react-router-dom';
 
 function Home() {
     return (
@@ -9,9 +10,9 @@ function Home() {
                     <p>Thrivetalk</p>
                 </div>
                 <div className={styles.Navbar}>
-                    <p>Home</p>
-                    <p>About</p>
-                    <p>Services</p>
+                    <NavLink to='/Home'><p>Home</p></NavLink>
+                    <NavLink to='/about'><p>About</p></NavLink>
+                    <NavLink to='/services'><p>Services</p></NavLink>
                     <p>Blog</p>
                 </div>
                 <div className={styles.CountactBtn}>
