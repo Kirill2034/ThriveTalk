@@ -1,2 +1,2 @@
-import Blocks from './Blocks';
-export {Blocks};
+import Blocks from "./Blocks";
+export { Blocks };

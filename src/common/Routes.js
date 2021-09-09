@@ -1,8 +1,8 @@
 const Routes = {
-    HOME: '/home',
-    ABOUT: '/about',
-    SERVICES: '/services',
-    BLOG: '/blog'
-}
+  HOME: "/home",
+  ABOUT: "/about",
+  SERVICES: "/services",
+  BLOG: "/blog",
+};
 
-export {Routes}
+export { Routes };
