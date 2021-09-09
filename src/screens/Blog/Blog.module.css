@@ -1,0 +1,55 @@
+.Blog {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+
+.BlogImage {
+  width: 30%;
+}
+
+.BlogImage img {
+  object-fit: fill;
+  height: 100%;
+}
+
+.BlogContent {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+  text-align: left;
+  padding-left: 100px;
+}
+
+.BlogContent p span {
+  color: #62d0df;
+}
+
+.BlogContent p:first-child {
+  font-family: "Monserat", sans-serif;
+  font-size: 24px;
+  line-height: 12px;
+  letter-spacing: 0.06em;
+  color: #22356f;
+}
+
+.BlogContent p:nth-child(2) {
+  font-family: "Monserat", sans-serif;
+  font-size: 36px;
+  line-height: 53px;
+  letter-spacing: -0.01em;
+  color: #22356f;
+  text-align: left;
+  width: 676px;
+}
+
+.BlogContent p:last-child {
+  font-family: "Monserat", sans-serif;
+  font-size: 16px;
+  line-height: 23px;
+  letter-spacing: 0.1em;
+  color: #fab63e;
+  font-weight: bold;
+}

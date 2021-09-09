@@ -19,7 +19,9 @@ function Home() {
           <NavLink to="/services">
             <p>Services</p>
           </NavLink>
-          <p>Blog</p>
+          <NavLink to="/blog">
+            <p>Blog</p>
+          </NavLink>
         </div>
         <div className={styles.CountactBtn}>
           <p>Contuct us</p>
