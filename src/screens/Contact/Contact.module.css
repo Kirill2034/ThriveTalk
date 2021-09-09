@@ -1,0 +1,123 @@
+.Contact {
+  width: 100%;
+}
+
+.ContactContent {
+  display: flex;
+  height: 800px;
+}
+
+.ContactContentText {
+  width: 70%;
+  background: #22356f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ContactContentTextWrapper {
+  width: 704px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.ContactContentTextWrapper p:first-child {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  line-height: 12px;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+}
+
+.ContactContentTextWrapper p:nth-child(2) {
+  font-family: "Montserrat", sans-serif;
+  font-size: 64px;
+  line-height: 94px;
+  letter-spacing: -0.01em;
+  color: #ffffff;
+}
+
+.ContactContentTextWrapper p:nth-child(3) {
+  font-family: "Montserrat", sans-serif;
+  font-size: 36px;
+  line-height: 53px;
+  letter-spacing: -0.005em;
+  color: #ffffff;
+}
+
+.ContactContentTextWrapper p:last-child {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  line-height: 23px;
+  letter-spacing: 0.1em;
+  color: #62d0df;
+  font-weight: bold;
+}
+
+.ContactContentImage {
+  width: 30%;
+}
+
+.ContactContentImage img {
+  width: 100%;
+  height: 100%;
+}
+
+.ContactInfo {
+  width: 100%;
+  display: flex;
+  height: 380px;
+}
+
+.ContactInfoText {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.ContactInfoText div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 300px;
+}
+
+.ContactInfoText div p:first-child {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 11px;
+  letter-spacing: -0.006em;
+  color: #22356f;
+  margin-bottom: 40px;
+}
+
+.ContactInfoText div p:last-child {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  line-height: 23px;
+  letter-spacing: -0.006em;
+  color: rgba(34, 53, 111, 0.5);
+}
+
+.ContactFooter {
+  width: 100%;
+  height: 80px;
+  background-color: #62d0df;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.ContactFooter p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  line-height: 11px;
+  letter-spacing: -0.006em;
+  color: #ffffff;
+}

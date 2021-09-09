@@ -26,6 +26,11 @@
   color: #22356f;
 }
 
+.Navbar a {
+  text-decoration: none;
+  color: #22356f;
+}
+
 .Navbar p {
   border-bottom: 1px solid transparent;
   padding: 10px;
@@ -39,17 +44,20 @@
 .CountactBtn {
   width: 150px;
   height: 50px;
-  left: 1159px;
-  top: 27px;
   background: #62d0df;
   border-radius: 50px;
-  font-size: 14px;
-  color: #fff;
   display: flex;
   align-items: center;
   justify-content: center;
   text-transform: uppercase;
   z-index: 10;
+}
+
+.CountactBtn a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
 }
 
 .HomeContentText {
@@ -111,9 +119,4 @@
   z-index: 0;
   top: 0;
   right: 0;
-}
-
-a {
-  text-decoration: none;
-  color: #22356f;
 }

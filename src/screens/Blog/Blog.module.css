@@ -28,7 +28,7 @@
 }
 
 .BlogContent p:first-child {
-  font-family: "Monserat", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 24px;
   line-height: 12px;
   letter-spacing: 0.06em;
@@ -36,7 +36,7 @@
 }
 
 .BlogContent p:nth-child(2) {
-  font-family: "Monserat", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 36px;
   line-height: 53px;
   letter-spacing: -0.01em;
@@ -46,7 +46,7 @@
 }
 
 .BlogContent p:last-child {
-  font-family: "Monserat", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 16px;
   line-height: 23px;
   letter-spacing: 0.1em;

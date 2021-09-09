@@ -24,7 +24,9 @@ function Home() {
           </NavLink>
         </div>
         <div className={styles.CountactBtn}>
-          <p>Contuct us</p>
+          <NavLink to="/contact">
+            <p>Contact us</p>
+          </NavLink>
         </div>
       </div>
       <div className={styles.HomeContent}>
